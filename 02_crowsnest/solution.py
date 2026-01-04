@@ -13,7 +13,7 @@ def get_args():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('word', metavar='word', help='A word')
-
+    
     return parser.parse_args()
 
 
